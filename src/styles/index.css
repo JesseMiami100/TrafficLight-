@@ -32,5 +32,39 @@
     background-color: green;
     width: 80px;
     height: 80px;
-    border-radius: 80%;
+    border-radius: 70%;
+}
+.red{
+    margin: auto;
+    background-color: red;
+    background-image: radial-gradient(brown, transparent);
+    width: 80px;
+    height: 80px;
+    border-radius: 70%;
+    box-shadow: 
+    0 0 20px #111 inset,
+    0 0 10px red;
+}
+.yellow{
+    margin: auto;
+    background-color: yellow;
+    background-image: radial-gradient(orange, transparent);
+    width: 80px;
+    height: 80px;
+    border-radius: 70%;
+    box-shadow: 
+    0 0 20px #111 inset,
+    0 0 10px yellow;
+    
+}
+.green{
+    margin: auto;
+    background-color: green;
+    background-image: radial-gradient(lime, transparent);
+    width: 80px;
+    height: 80px;
+    border-radius: 70%;
+    box-shadow: 
+    0 0 20px #111 inset,
+    0 0 10px lime;
 }

@@ -7,8 +7,7 @@ const Home = () => {
             <div className="trafficTop"></div>
             <div className="trafficBox">
                 <div
-                    className={
-                        lightColor === "red" ? "red redOff" : "redOff"}
+                    className={lightColor === "red" ? "red redOff" : "redOff"}
                     onClick={() => {
                         setLightColor("red");
                     }}></div>
@@ -32,5 +31,4 @@ const Home = () => {
         </div>
     );
 };
-
 export default Home;
